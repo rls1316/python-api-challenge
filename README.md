@@ -23,3 +23,19 @@ Create a Python script to visualize the weather of 500+ cities across the world 
     *Southern Hemisphere - Cloudiness (%) vs. Latitude
     *Northern Hemisphere - Wind Speed (mph) vs. Latitude
     *Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+# Part 2: VacationPy
+
+Create a series of maps from the City data in Part I. (See [VacationPy](VacationPy))
+
+*Create a heat map that displays the humidity for every city from Part I.
+
+*Narrow down the DataFrame to find your ideal weather condition:
+
+    *A max temperature lower than 85 degrees but higher than 70.
+    *Wind speed less than 9 mph.
+    *Cloudiness less than 5%
+
+*Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
+
+*Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
